@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".MainActivity">
+
+  <ImageView
+    android:id="@+id/imageView2"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_marginStart="33dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginEnd="33dp"
+    android:layout_marginBottom="26dp"
+    android:contentDescription="@string/jay_jason"
+    app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:srcCompat="@drawable/jaynjay"
+    tools:ignore="MissingConstraints" />
+
+  <Button
+    android:id="@+id/button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="20dp"
+    android:layout_marginBottom="93dp"
+    android:background="@android:color/black"
+    android:text="@string/to_see_more_photos_click_here"
+    android:textColor="@android:color/holo_purple"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="@+id/editTextTextMultiLine"
+    app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine"
+    app:layout_constraintVertical_bias="1.0"
+    tools:ignore="MissingConstraints" />
+
+  <EditText
+    android:id="@+id/editTextTextMultiLine"
+    android:layout_width="331dp"
+    android:layout_height="125dp"
+    android:layout_marginStart="50dp"
+    android:layout_marginEnd="50dp"
+    android:layout_marginBottom="160dp"
+    android:autofillHints=""
+    android:ems="10"
+    android:gravity="start|top"
+    android:inputType="textMultiLine"
+    android:text="@string/we_met_at_vsu_and_then_fell_in_love_our_favorite_show_is_bob_s_burgers_we_are_getting_married_08_19_23"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:ignore="LabelFor,MissingConstraints,TextSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
